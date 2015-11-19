@@ -1,7 +1,7 @@
 var chai = require('chai');
 chai.should();
 
-global.request = require("supertest");
+global.request = require("supertest-as-promised");
 global.sinon = require("sinon");
 global.app = null;
 
